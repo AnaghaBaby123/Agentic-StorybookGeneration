@@ -8,8 +8,10 @@ The system is split into two clearly separated layers:
 - **MCP server** (`mcpserver.py`) — owns all content generation. Every LLM call (writing the story, evaluating it, writing image prompts) and every image generation call lives here as an MCP tool. Nothing about orchestration or state lives in this layer.
 - **LangGraph pipeline** (`storybook_.py`) — owns orchestration only. It tracks pipeline state, routes between nodes, and pauses for human review at two checkpoints. It never calls an LLM or image model directly — it calls MCP tools.
 
-![Pipeline flowchart](docs/flowchart.png)
-
+## Flowchart
+<p align="center">
+  <img src="docs/flowchart.png" alt="Pipeline flowchart" width="250">
+</p>
 
 ### Models
 
