@@ -1,0 +1,198 @@
+2026-07-18 11:11:05,232 INFO: vllm server is called Qwen/Qwen3-8B-AWQ
+2026-07-18 11:14:30,809 INFO: [MCP] Connected — tools: ['write_story', 'evaluate_story', 'extract_characters', 'generate_image_prompt', 'evaluate_image_prompt', 'generate_image']
+2026-07-18 11:14:30,822 INFO: [Story] Generating — theme: 'Anagha aged 26 and her niece,Rachel aged 3 having a heartful conversation about Anagha's love towards Rachel'
+2026-07-18 11:14:59,846 INFO: [Story] 8 sentences generated
+2026-07-18 11:14:59,846 INFO: [Story] Title : Anagha's Love Language
+2026-07-18 11:14:59,847 INFO: [Reflect-Story] Evaluating story...
+2026-07-18 11:14:59,854 INFO: Human reviewing node
+2026-07-18 11:14:59,855 INFO: Human reviewing node
+2026-07-18 11:14:59,856 INFO: [Characters] Extracting character traits...
+2026-07-18 11:15:40,752 INFO: [Characters] found: ['Anagha', 'Rachel']
+2026-07-18 11:15:40,752 INFO: Anagha: Adult woman with warm brown eyes, wearing light blue sweater and jeans, holding stuffed bear, smiling warmly
+2026-07-18 11:15:40,752 INFO: Rachel: Young girl with yellow dress and red bow, wearing blue sneakers, holding stuffed bear, smiling broadly
+2026-07-18 11:15:40,753 INFO: [Split] Distributing 8 sentences across 6 pages
+2026-07-18 11:15:40,754 INFO: [IMAGE PROMPT NODE] Target pages are None
+2026-07-18 11:15:40,754 INFO: [IMAGE PROMPT NODE] Generating prompts (all)
+2026-07-18 11:15:40,754 INFO: [IMAGE PROMPT NODE] Using character tags: Anagha (visual description: Adult woman with warm brown eyes, wearing light blue sweater and jeans, holding stuffed bear, smiling warmly); Rachel (visual description: Young girl with yellow dress and red bow, wearing blue sneakers, holding stuffed bear, smiling broadly)
+2026-07-18 11:15:40,754 INFO: [IMAGE PROMPT NODE] Page number : 0
+2026-07-18 11:16:00,368 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Anagha aged 26 and her niece,Rachel aged 3 having a heartful conversation about Anagha's love towards Rachel 
+ --> 
+ Children's watercolor illustration. Anagha, adult with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. They sit on a cozy rug, knees touching, engaged in heartfelt conversation. Scene: sunlit living room with soft textiles and wooden furniture. Lighting: warm golden hues filtering through curtains. Mood: tender and joyful. Composition: close-up, eye contact, stuffed bears on the floor. Visual details: textured fabric, gentle shadows, soft light highlighting their expressions.
+
+2026-07-18 11:16:00,368 INFO: [IMAGE PROMPT NODE] Page number : 1
+2026-07-18 11:16:20,737 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Anagha sat on the floor with Rachel, who was holding a stuffed bear. Rachel looked up and asked, 'Anagha, do you love me?' 
+ --> 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiling warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiling broadly. Main action: Rachel looks up, asking, "Anagha, do you love me?" Scene: Cozy living room floor with soft rug and bookshelves. Lighting: Warm, soft natural light through window. Mood: Gentle, heartfelt. Composition: Close-up of their connected faces, stuffed bears between them. Important details: Textured watercolor brushstrokes, warm tones, subtle shadows around the edges.
+
+2026-07-18 11:16:20,737 INFO: [IMAGE PROMPT NODE] Page number : 2
+2026-07-18 11:16:36,947 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Anagha smiled and said, 'Of course, sweetie. I love you very much.' She pointed to the bear and said, 'This bear loves you too. It hugs you when you're sad.' 
+ --> 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha points to bear, speaking to Rachel in cozy living room. Soft afternoon light filters through window. Warm, comforting mood. Composition shows close interaction, bear centered. Details: books on shelf, fluffy rug, gentle shadows.
+
+2026-07-18 11:16:36,947 INFO: [IMAGE PROMPT NODE] Page number : 3
+2026-07-18 11:16:56,381 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Rachel hugged the bear tightly and giggled, 'I love you too, Anagha!' 
+ --> 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Rachel hugs bear tightly, giggles, embraces Anagha. Scene: cozy living room with soft blankets, wooden shelves. Warm golden lighting. Mood: affectionate, joyful. Composition: side profile of both characters, window light illuminating faces. Important details: bears’ embroidered patches, Rachel’s bow, Anagha’s sweater texture.
+
+2026-07-18 11:16:56,381 INFO: [IMAGE PROMPT NODE] Page number : 4
+2026-07-18 11:17:13,636 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Anagha tickled Rachel's belly and said, 'You make me happy every day.' 
+ --> 
+ Children’s watercolor illustration. Anagha, adult woman in light blue sweater and jeans, holds stuffed bear while tickling Rachel’s belly. Rachel, young girl in yellow dress and red bow, giggles with blue sneakers. Cozy living room scene with soft sunlight streaming through window. Warm, golden lighting bathes the room. Joyful, heartfelt mood. Close-up composition focusing on their interaction. Highlight warm tones, stuffed bear, and gentle shadows from window light.
+
+2026-07-18 11:17:13,637 INFO: [IMAGE PROMPT NODE] Page number : 5
+2026-07-18 11:17:36,525 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ They sat together on the couch, sharing a warm hug. 
+ --> 
+ Children's watercolor illustration. Anagha (adult, warm brown eyes, light blue sweater, jeans, holding stuffed bear, smiling warmly) and Rachel (young girl, yellow dress, red bow, blue sneakers, holding stuffed bear, smiling broadly) sit on a cozy couch, hugging warmly. Scene: sunlit living room with soft blankets and plush cushions. Lighting: warm golden tones. Mood: comforting. Composition: close-up of their embrace, emphasizing connection. Details: textured paper, gentle shadows, vibrant colors.
+
+2026-07-18 11:17:36,525 INFO: [IMAGE PROMPT NODE] Page number : 6
+2026-07-18 11:17:52,363 INFO: [IMAGE PROMPT NODE] GENERATED image prompt of page text: 
+ Anagha whispered, 'I will always love you, my little star.' 
+ --> 
+ Children’s watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha whispers lovingly to Rachel in a cozy living room. Soft golden light spills through a window, casting gentle shadows. Warm, tender mood. Composition features both characters at eye level, with Rachel gazing up. Important details: textured fabric, soft light, stuffed bears, warm color palette.
+
+2026-07-18 11:17:52,364 INFO: [IMAGE PROMPT NODE] Created image prompts (all)
+2026-07-18 11:17:52,365 INFO: [Reflect-Image] Critiquing image prompts...
+2026-07-18 11:17:52,365 INFO: [Reflect-Image] Page number : 0
+2026-07-18 11:18:18,217 INFO: [Reflect-Image] Prompt needs revision from 
+ Children's watercolor illustration. Anagha, adult with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. They sit on a cozy rug, knees touching, engaged in heartfelt conversation. Scene: sunlit living room with soft textiles and wooden furniture. Lighting: warm golden hues filtering through curtains. Mood: tender and joyful. Composition: close-up, eye contact, stuffed bears on the floor. Visual details: textured fabric, gentle shadows, soft light highlighting their expressions.
+  llm message →  
+ The prompt is vivid with detailed descriptions of characters, setting, and mood. It includes child-safe elements (no hazards) and avoids text. The scene matches the page text about a heartfelt conversation between Anagha and Rachel, with stuffed bears and close-up interaction. It is well-suited for FLUX.1-schnell with clear visual elements and emotional tone. Minor tweaks could enhance emotional expression details.
+ image_status → 
+ ok
+
+2026-07-18 11:18:18,217 INFO: [Reflect-Image] Page number : 1
+2026-07-18 11:18:41,383 INFO: [Reflect-Image] Prompt needs revision from 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiling warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiling broadly. Main action: Rachel looks up, asking, "Anagha, do you love me?" Scene: Cozy living room floor with soft rug and bookshelves. Lighting: Warm, soft natural light through window. Mood: Gentle, heartfelt. Composition: Close-up of their connected faces, stuffed bears between them. Important details: Textured watercolor brushstrokes, warm tones, subtle shadows around the edges.
+  llm message →  
+ The prompt is vivid with detailed character descriptions and setting. Child-safe, no text in image. Matches page text with accurate dialogue and scene elements. Optimized for FLUX.1-schnell with warm tones, texture, and composition focus.
+ image_status → 
+ ok
+
+2026-07-18 11:18:41,383 INFO: [Reflect-Image] Page number : 2
+2026-07-18 11:19:01,108 INFO: [Reflect-Image] Prompt needs revision from 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha points to bear, speaking to Rachel in cozy living room. Soft afternoon light filters through window. Warm, comforting mood. Composition shows close interaction, bear centered. Details: books on shelf, fluffy rug, gentle shadows.
+  llm message →  
+ The prompt is vivid with detailed descriptions of characters, setting, and mood. It is child-safe, contains no text, and aligns with the page text about Anagha and Rachel interacting with the bear. The composition and details (soft light, cozy elements) are optimized for FLUX.1-schnell's strengths in rendering warm, detailed scenes.
+ image_status → 
+ ok
+
+2026-07-18 11:19:01,108 INFO: [Reflect-Image] Page number : 3
+2026-07-18 11:19:21,239 INFO: [Reflect-Image] Prompt needs revision from 
+ Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Rachel hugs bear tightly, giggles, embraces Anagha. Scene: cozy living room with soft blankets, wooden shelves. Warm golden lighting. Mood: affectionate, joyful. Composition: side profile of both characters, window light illuminating faces. Important details: bears’ embroidered patches, Rachel’s bow, Anagha’s sweater texture.
+  llm message →  
+ 
+ image_status → 
+ ok
+
+2026-07-18 11:19:21,239 INFO: [Reflect-Image] Page number : 4
+2026-07-18 11:19:41,755 INFO: [Reflect-Image] Prompt needs revision from 
+ Children’s watercolor illustration. Anagha, adult woman in light blue sweater and jeans, holds stuffed bear while tickling Rachel’s belly. Rachel, young girl in yellow dress and red bow, giggles with blue sneakers. Cozy living room scene with soft sunlight streaming through window. Warm, golden lighting bathes the room. Joyful, heartfelt mood. Close-up composition focusing on their interaction. Highlight warm tones, stuffed bear, and gentle shadows from window light.
+  llm message →  
+ The prompt is vivid with warm tones and detailed descriptions. It is child-safe, includes no text, and matches the page text's emotional and visual elements. It is well-suited for FLUX.1-schnell with descriptive details, though could add specific lighting/texture keywords for further optimization.
+ image_status → 
+ ok
+
+2026-07-18 11:19:41,755 INFO: [Reflect-Image] Page number : 5
+2026-07-18 11:19:55,494 INFO: [Reflect-Image] Prompt needs revision from 
+ Children's watercolor illustration. Anagha (adult, warm brown eyes, light blue sweater, jeans, holding stuffed bear, smiling warmly) and Rachel (young girl, yellow dress, red bow, blue sneakers, holding stuffed bear, smiling broadly) sit on a cozy couch, hugging warmly. Scene: sunlit living room with soft blankets and plush cushions. Lighting: warm golden tones. Mood: comforting. Composition: close-up of their embrace, emphasizing connection. Details: textured paper, gentle shadows, vibrant colors.
+  llm message →  
+ The prompt is vivid with detailed descriptions of characters, setting, and mood. It is child-safe, includes no text, and aligns with the page text. While not explicitly tailored to FLUX.1-schnell, the descriptive elements are suitable for image generation.
+ image_status → 
+ ok
+
+2026-07-18 11:19:55,494 INFO: [Reflect-Image] Page number : 6
+2026-07-18 11:20:18,591 INFO: [Reflect-Image] Prompt needs revision from 
+ Children’s watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha whispers lovingly to Rachel in a cozy living room. Soft golden light spills through a window, casting gentle shadows. Warm, tender mood. Composition features both characters at eye level, with Rachel gazing up. Important details: textured fabric, soft light, stuffed bears, warm color palette.
+  llm message →  
+ The prompt is vivid with detailed descriptions of characters, setting, and mood. It is child-safe, includes no text in the image, aligns with the page text's emotional tone, and provides sufficient detail for FLUX.1-schnell model optimization.
+ image_status → 
+ ok
+
+2026-07-18 11:20:18,593 INFO: [PipelineContext] stopping vLLM server...
+2026-07-18 11:20:18,593 INFO: vllm server is killed.
+2026-07-18 11:20:19,746 INFO: [ImageGen] Generating images (all)
+2026-07-18 11:31:21,344 INFO: [ImageGen] Page 0: ok
+2026-07-18 11:39:08,105 INFO: [ImageGen] Page 1: ok
+2026-07-18 11:46:51,769 INFO: [ImageGen] Page 2: ok
+2026-07-18 11:54:36,386 INFO: [ImageGen] Page 3: ok
+2026-07-18 12:02:20,106 INFO: [ImageGen] Page 4: ok
+2026-07-18 12:10:14,670 INFO: [ImageGen] Page 5: ok
+2026-07-18 12:18:14,916 INFO: [ImageGen] Page 6: ok
+2026-07-18 12:18:14,946 INFO: Human reviewing images!
+2026-07-18 12:18:14,955 INFO: Human reviewing images!
+2026-07-18 12:18:14,955 INFO: → Image reruns : none
+2026-07-18 12:18:14,965 INFO: Final state saved :
+{'theme': "Anagha aged 26 and her niece,Rachel aged 3 having a heartful conversation about Anagha's love towards Rachel", 'num_pages': 6, 'title': "Anagha's Love Language", 'min_sentences': 6, 'max_sentences': 18, 'story': ['Anagha sat on the floor with Rachel, who was holding a stuffed bear.', "Rachel looked up and asked, 'Anagha, do you love me?'", "Anagha smiled and said, 'Of course, sweetie. I love you very much.'", "She pointed to the bear and said, 'This bear loves you too. It hugs you when you're sad.'", "Rachel hugged the bear tightly and giggled, 'I love you too, Anagha!'", "Anagha tickled Rachel's belly and said, 'You make me happy every day.'", 'They sat together on the couch, sharing a warm hug.', "Anagha whispered, 'I will always love you, my little star.'"], 'story_evaluation': {'status': 'ok', 'message': []}, 'story_revisions': 0, 'human_story_feedback': 'ok', 'story_rewrite_reason': '', 'characters': {'Anagha': {'role': 'Primary caregiver', 'visual_tags': 'Adult woman with warm brown eyes, wearing light blue sweater and jeans, holding stuffed bear, smiling warmly'}, 'Rachel': {'role': 'Child', 'visual_tags': 'Young girl with yellow dress and red bow, wearing blue sneakers, holding stuffed bear, smiling broadly'}}, 'pages': [{'page_number': 0, 'text': "Anagha aged 26 and her niece,Rachel aged 3 having a heartful conversation about Anagha's love towards Rachel", 'image_prompt': "Children's watercolor illustration. Anagha, adult with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. They sit on a cozy rug, knees touching, engaged in heartfelt conversation. Scene: sunlit living room with soft textiles and wooden furniture. Lighting: warm golden hues filtering through curtains. Mood: tender and joyful. Composition: close-up, eye contact, stuffed bears on the floor. Visual details: textured fabric, gentle shadows, soft light highlighting their expressions.", 'image_path': 'images/0.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 1, 'text': "Anagha sat on the floor with Rachel, who was holding a stuffed bear. Rachel looked up and asked, 'Anagha, do you love me?'", 'image_prompt': 'Children\'s watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiling warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiling broadly. Main action: Rachel looks up, asking, "Anagha, do you love me?" Scene: Cozy living room floor with soft rug and bookshelves. Lighting: Warm, soft natural light through window. Mood: Gentle, heartfelt. Composition: Close-up of their connected faces, stuffed bears between them. Important details: Textured watercolor brushstrokes, warm tones, subtle shadows around the edges.', 'image_path': 'images/1.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 2, 'text': "Anagha smiled and said, 'Of course, sweetie. I love you very much.' She pointed to the bear and said, 'This bear loves you too. It hugs you when you're sad.'", 'image_prompt': "Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha points to bear, speaking to Rachel in cozy living room. Soft afternoon light filters through window. Warm, comforting mood. Composition shows close interaction, bear centered. Details: books on shelf, fluffy rug, gentle shadows.", 'image_path': 'images/2.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 3, 'text': "Rachel hugged the bear tightly and giggled, 'I love you too, Anagha!'", 'image_prompt': "Children's watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Rachel hugs bear tightly, giggles, embraces Anagha. Scene: cozy living room with soft blankets, wooden shelves. Warm golden lighting. Mood: affectionate, joyful. Composition: side profile of both characters, window light illuminating faces. Important details: bears’ embroidered patches, Rachel’s bow, Anagha’s sweater texture.", 'image_path': 'images/3.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 4, 'text': "Anagha tickled Rachel's belly and said, 'You make me happy every day.'", 'image_prompt': 'Children’s watercolor illustration. Anagha, adult woman in light blue sweater and jeans, holds stuffed bear while tickling Rachel’s belly. Rachel, young girl in yellow dress and red bow, giggles with blue sneakers. Cozy living room scene with soft sunlight streaming through window. Warm, golden lighting bathes the room. Joyful, heartfelt mood. Close-up composition focusing on their interaction. Highlight warm tones, stuffed bear, and gentle shadows from window light.', 'image_path': 'images/4.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 5, 'text': 'They sat together on the couch, sharing a warm hug.', 'image_prompt': "Children's watercolor illustration. Anagha (adult, warm brown eyes, light blue sweater, jeans, holding stuffed bear, smiling warmly) and Rachel (young girl, yellow dress, red bow, blue sneakers, holding stuffed bear, smiling broadly) sit on a cozy couch, hugging warmly. Scene: sunlit living room with soft blankets and plush cushions. Lighting: warm golden tones. Mood: comforting. Composition: close-up of their embrace, emphasizing connection. Details: textured paper, gentle shadows, vibrant colors.", 'image_path': 'images/5.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}, {'page_number': 6, 'text': "Anagha whispered, 'I will always love you, my little star.'", 'image_prompt': 'Children’s watercolor illustration. Anagha, adult woman with warm brown eyes, light blue sweater, jeans, holds stuffed bear, smiles warmly. Rachel, young girl in yellow dress, red bow, blue sneakers, holds stuffed bear, smiles broadly. Anagha whispers lovingly to Rachel in a cozy living room. Soft golden light spills through a window, casting gentle shadows. Warm, tender mood. Composition features both characters at eye level, with Rachel gazing up. Important details: textured fabric, soft light, stuffed bears, warm color palette.', 'image_path': 'images/6.png', 'image_feedback': '', 'image_revisions': 0, 'verdict': 'ok', 'human_note': '', 'image_status': 'ok'}], 'pages_needing_image': [], 'pdf_path': '', 'errors': []}
+2026-07-18 12:18:20,017 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-94' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('Attempted to exit cancel scope in a different task than it was entered in')>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+    |     raise BaseExceptionGroup(
+    | BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/sessions.py", line 271, in _create_stdio_session
+      |     yield session
+      |   File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/sessions.py", line 465, in create_session
+      |     yield session
+      |   File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/client.py", line 160, in session
+      |     yield session
+      | GeneratorExit
+      +------------------------------------
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.12/dist-packages/mcp/client/stdio/__init__.py", line 189, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/sessions.py", line 269, in _create_stdio_session
+    |     ClientSession(read, write, **(session_kwargs or {})) as session,
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.12/dist-packages/mcp/shared/session.py", line 238, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 805, in __aexit__
+    |     if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 455, in __exit__
+    |     raise RuntimeError(
+    | RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/client.py", line 155, in session
+    async with create_session(
+               ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+    await self.gen.athrow(value)
+  File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/sessions.py", line 464, in create_session
+    async with _create_stdio_session(**params) as session:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+    await self.gen.athrow(value)
+  File "/usr/local/lib/python3.12/dist-packages/langchain_mcp_adapters/sessions.py", line 268, in _create_stdio_session
+    stdio_client(server_params) as (read, write),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 231, in __aexit__
+    await self.gen.athrow(value)
+  File "/usr/local/lib/python3.12/dist-packages/mcp/client/stdio/__init__.py", line 183, in stdio_client
+    anyio.create_task_group() as tg,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 805, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/anyio/_backends/_asyncio.py", line 455, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
